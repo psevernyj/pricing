@@ -1,0 +1,23 @@
+{
+  "name": "pricing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:compile": "node-sass scss/base.scss css/index.css",
+    "css:watch": "npm run scss:compile && npm run scss:compile -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psevernyj/pricing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psevernyj/pricing/issues"
+  },
+  "homepage": "https://github.com/psevernyj/pricing#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

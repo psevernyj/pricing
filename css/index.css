@@ -1,22 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   background-color: #9789f9;
-  font-family: Bebas Neue;
-}
+  font-family: Bebas Neue; }
 
 .pricing {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 200px;
-
-  .block_center {
+  margin-top: 200px; }
+  .pricing .block_center {
     position: relative;
     margin: 0 22px;
     display: flex;
@@ -28,57 +25,42 @@ body {
     background-color: #f5f4f9;
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
-    background-position: center;
-
-    .title {
+    background-position: center; }
+    .pricing .block_center .title {
       font-family: Open Sans Condensed;
       text-transform: uppercase;
-      line-height: 1;
-      .popular{
+      line-height: 1; }
+      .pricing .block_center .title .popular {
         position: absolute;
-        top:10px; left: 260px;
-      }
-
-      & h1 {
-
+        top: 10px;
+        left: 260px; }
+      .pricing .block_center .title h1 {
         font-size: 25pt;
         font-weight: lighter;
         position: absolute;
         top: 20px;
-        left: 116px;
-
-        span {
-          font-size: 40pt;
-        }
-      }
-      & h2{
+        left: 116px; }
+        .pricing .block_center .title h1 span {
+          font-size: 40pt; }
+      .pricing .block_center .title h2 {
         font-size: 23pt;
         font-weight: normal;
         position: absolute;
         top: 75px;
-        left: 110px;
-      }
-    }
-    .icon{
+        left: 110px; }
+    .pricing .block_center .icon {
       position: absolute;
       top: 148px;
-      left: 146px;
-    }
-
-    .list {
+      left: 146px; }
+    .pricing .block_center .list {
       width: 200px;
-      height: 229px;
-      & ul {
-        & li {
-          list-style-type: none;
-          font-family: 'Inria Serif', serif;
-          font-size: 13pt;
-          line-height: 3.5;
-        }
-      }
-    }
-
-    .button {
+      height: 229px; }
+      .pricing .block_center .list ul li {
+        list-style-type: none;
+        font-family: 'Inria Serif', serif;
+        font-size: 13pt;
+        line-height: 3.5; }
+    .pricing .block_center .button {
       width: 203px;
       height: 54px;
       background-color: #6fcffb;
@@ -91,11 +73,8 @@ body {
       font-weight: bolder;
       position: absolute;
       bottom: -25px;
-      left: 65px;
-    }
-
-  }
-  .block_right {
+      left: 65px; }
+  .pricing .block_right {
     position: relative;
     margin: 0 22px;
     display: flex;
@@ -107,53 +86,38 @@ body {
     background-color: #f5f4f9;
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
-    background-position: center;
-
-    .title {
+    background-position: center; }
+    .pricing .block_right .title {
       font-family: Open Sans Condensed;
       text-transform: uppercase;
-      line-height: 1;
-
-      & h1 {
+      line-height: 1; }
+      .pricing .block_right .title h1 {
         font-size: 25pt;
         font-weight: lighter;
         position: absolute;
         top: 20px;
-        left: 116px;
-
-        span {
-          font-size: 40pt;
-        }
-      }
-      & h2{
+        left: 116px; }
+        .pricing .block_right .title h1 span {
+          font-size: 40pt; }
+      .pricing .block_right .title h2 {
         font-size: 23pt;
         font-weight: normal;
         position: absolute;
         top: 75px;
-        left: 78px;
-      }
-    }
-    .icon{
+        left: 78px; }
+    .pricing .block_right .icon {
       position: absolute;
       top: 148px;
-      left: 146px;
-    }
-
-
-    .list {
+      left: 146px; }
+    .pricing .block_right .list {
       width: 200px;
-      height: 229px;
-      & ul {
-        & li {
-          list-style-type: none;
-          font-family: 'Inria Serif', serif;
-          font-size: 13pt;
-          line-height: 3.5;
-        }
-      }
-    }
-
-    .button {
+      height: 229px; }
+      .pricing .block_right .list ul li {
+        list-style-type: none;
+        font-family: 'Inria Serif', serif;
+        font-size: 13pt;
+        line-height: 3.5; }
+    .pricing .block_right .button {
       width: 203px;
       height: 54px;
       background-color: #6fcffb;
@@ -166,11 +130,8 @@ body {
       font-weight: bolder;
       position: absolute;
       bottom: -25px;
-      left: 65px;
-    }
-
-  }
-  .block_left {
+      left: 65px; }
+  .pricing .block_left {
     position: relative;
     margin: 0 22px;
     display: flex;
@@ -182,53 +143,38 @@ body {
     background-color: #f5f4f9;
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
-    background-position: center;
-
-    .title {
+    background-position: center; }
+    .pricing .block_left .title {
       font-family: Open Sans Condensed;
       text-transform: uppercase;
-      line-height: 1;
-
-      & h1 {
+      line-height: 1; }
+      .pricing .block_left .title h1 {
         font-size: 25pt;
         font-weight: lighter;
         position: absolute;
         top: 20px;
-        left: 116px;
-
-        span {
-          font-size: 40pt;
-        }
-      }
-      & h2{
+        left: 116px; }
+        .pricing .block_left .title h1 span {
+          font-size: 40pt; }
+      .pricing .block_left .title h2 {
         font-size: 23pt;
         font-weight: normal;
         position: absolute;
         top: 75px;
-        left: 141px;
-      }
-    }
-    .icon{
+        left: 141px; }
+    .pricing .block_left .icon {
       position: absolute;
       top: 148px;
-      left: 146px;
-    }
-
-
-    .list {
+      left: 146px; }
+    .pricing .block_left .list {
       width: 200px;
-      height: 229px;
-      & ul {
-        & li {
-          list-style-type: none;
-          font-family: 'Inria Serif', serif;
-          font-size: 13pt;
-          line-height: 3.5;
-        }
-      }
-    }
-
-    .button {
+      height: 229px; }
+      .pricing .block_left .list ul li {
+        list-style-type: none;
+        font-family: 'Inria Serif', serif;
+        font-size: 13pt;
+        line-height: 3.5; }
+    .pricing .block_left .button {
       width: 203px;
       height: 54px;
       background-color: #6fcffb;
@@ -241,9 +187,4 @@ body {
       font-weight: bolder;
       position: absolute;
       bottom: -25px;
-      left: 65px;
-    }
-
-  }
-
-}
+      left: 65px; }
