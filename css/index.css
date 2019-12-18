@@ -25,7 +25,9 @@ body {
     background-color: #f5f4f9;
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    box-shadow: 0 0 10px #ffffff;
+    transition: 1s; }
     .pricing .block_center .title {
       font-family: Open Sans Condensed;
       text-transform: uppercase;
@@ -33,7 +35,8 @@ body {
       .pricing .block_center .title .popular {
         position: absolute;
         top: 10px;
-        left: 260px; }
+        left: 260px;
+        transition: 1s; }
       .pricing .block_center .title h1 {
         font-size: 25pt;
         font-weight: lighter;
@@ -86,7 +89,9 @@ body {
     background-color: #f5f4f9;
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    box-shadow: 0 0 10px #ffffff;
+    transition: 1s; }
     .pricing .block_right .title {
       font-family: Open Sans Condensed;
       text-transform: uppercase;
@@ -143,7 +148,9 @@ body {
     background-color: #f5f4f9;
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    box-shadow: 0 0 10px #ffffff;
+    transition: 1s; }
     .pricing .block_left .title {
       font-family: Open Sans Condensed;
       text-transform: uppercase;
@@ -188,3 +195,32 @@ body {
       position: absolute;
       bottom: -25px;
       left: 65px; }
+
+.block_left:hover {
+  box-shadow: 0 0 10px #fd8d7b;
+  transform: scaleY(1.1) scaleX(1.1); }
+  .block_left:hover .button {
+    background-color: #fd8d7b;
+    transition: all 1s;
+    transform: translateY(-50px); }
+
+.block_right:hover {
+  box-shadow: 0 0 10px #fd8d7b;
+  transform: scaleY(1.1) scaleX(1.1); }
+  .block_right:hover .button {
+    background-color: #fd8d7b;
+    transition: all ease-in 1s;
+    transform: translateY(-50px); }
+
+.block_center:hover {
+  box-shadow: 0 0 10px #fd8d7b;
+  transform: scaleY(1.1) scaleX(1.1); }
+  .block_center:hover .button {
+    background-color: #fd8d7b;
+    transition: all ease-in 1s;
+    transform: translateY(-50px); }
+  .block_center:hover .popular {
+    transform: scale(1.2); }
+
+.button:not(:hover) {
+  transition: 2s; }
