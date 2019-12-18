@@ -13,6 +13,8 @@ body {
   align-items: center;
   flex-direction: row;
   margin-top: 200px; }
+  .pricing:hover .test:not(:hover) {
+    transform: scale(0.8); }
   .pricing .block_center {
     position: relative;
     margin: 0 22px;

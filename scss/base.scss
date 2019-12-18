@@ -11,16 +11,16 @@ body {
   font-family: Bebas Neue;
 }
 
-
-
-
-
   .pricing {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     margin-top: 200px;
+
+    &:hover .test:not(:hover){
+      transform: scale(0.8);
+    }
 
     .block_center {
       position: relative;
